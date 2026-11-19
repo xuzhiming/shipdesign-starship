@@ -1,23 +1,11 @@
-# 96 m Concept Starship — 3D Preview
+# shipdesign-starship
 
-Interactive three.js preview of a concept starship (96 m × ~42 m × ~42 m, 2 decks, crew 12). Built with Blender (bpy) → GLB → self-contained `index.html`.
+96 m concept starship (span 48 m, height 44 m incl. fins, 2 decks, crew 12), purple/gold organic hull. Built in Blender, previewed with Three.js.
 
-## Live preview
+- **Current version:** v35
+- **Live preview:** https://xuzhiming.github.io/shipdesign-starship/
+- **Web GLB (embeddable):** https://xuzhiming.github.io/shipdesign-starship/models/model_v35_web.glb
+- **Hero render:** https://xuzhiming.github.io/shipdesign-starship/renders/v35_01_hero.png
+- **Six-view comparison:** https://xuzhiming.github.io/shipdesign-starship/renders/v35_compare_6view.png
 
-After Pages is live: https://xuzhiming.github.io/shipdesign-starship/
-
-Open `index.html` locally as well (offline, `file://`).
-
-## Screenshots
-
-![Hero](hero.png)
-
-![Ortho compare vs reference](compare.png)
-
-## Versions
-
-This Pages site ships **v5** (dark violet hull, antique copper filigree, cyan engine eyes). Earlier local builds (v1–v4) remain on the design workstation.
-
-## Credits
-
-Workflow patterned after [cyber-louvre](https://github.com/xuzhiming/cyber-louvre). Concept art and brief by Xie Xie.
+Pipeline: Blender bpy → GLB → gltf-transform → Three.js r170 viewer (`?light=dark` for the dark look).
